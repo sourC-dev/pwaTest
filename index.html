@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0a84ff" />
+  <link rel="manifest" href="/manifest.json" />
+  <title>PWA Demo</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main>
+    <h1>PWA Demo</h1>
+    <p id="status">Status: online</p>
+
+    <div id="controls">
+      <button id="installBtn" hidden>Install App</button>
+      <button id="updateBtn" hidden>Update Available — Click to reload</button>
+      <button id="checkUpdateBtn">Check for updates</button>
+    </div>
+
+    <section id="content">
+      <p>Simple offline-capable app content. Try going offline after first load.</p>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
+
